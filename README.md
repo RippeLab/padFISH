@@ -1,5 +1,5 @@
 # padFISH
-Collection of scripts used for Preprocessing and Quantification for padFISH data set in the study "Two different chromatin modules regulate proinflammatory gene expression" from Seufert et al.
+Collection of scripts used for Preprocessing and Quantification for padFISH data set in the study "Two different chromatin modules regulate proinflammatory gene expression" from Seufert et al. (BioRxiv) (https://doi.org/10.1101/2024.08.03.606159)
 
 # padFISH - multiplex smFISH of nascent RNAs 
 padFISH is a multiplexed single-molecule fluorescence in situ hybridization (smFISH) method that combines elements from hybridization-based in situ sequencing (HybISS) [1] and single-cell resolution in situ hybridization on tissues (SCRINSHOT) [2]. The padFISH technique enables high-resolution tracing of nascent RNAs using intronic padlock probes (PLPs) that target cDNA, followed by rolling circle amplification (RCA) for signal enhancement. 
