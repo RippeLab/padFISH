@@ -12,7 +12,11 @@ padFISH is a multiplexed single-molecule fluorescence in situ hybridization (smF
 
 # Quantification
 1.	Individual channel images and Cellpose nuclear masks were used as input in R to quantify image features in regions corresponding to nuclear masks using the custom function quantNuclei_v01.R [4]. 
-2.	For padFISH transcriptional bursting analysis, we computed the sum of fluorescence intensities in each nucleus using the padFISH_Bursting_kinetics_analysis.R script. 
+2.	For padFISH transcriptional bursting analysis, we used the notebook `padFISH_BurstingKinetics_v1.ipynb` containing the Python-based quantification of transcription activation kinetics, including:
+
+- CV/intensity mixture model classification of nuclei
+- Fraction active over time (burst frequency proxy)
+- Excess signal (burst size proxy) computation
 3.	For the padFISH co-expression analysis at the CXCL cluster, the padFISH_CXCL_coexpression_analysis.R script was used.
 
 
